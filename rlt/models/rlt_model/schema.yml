@@ -5,7 +5,9 @@ sources:
       description: "cleansing level"
       tables:
           - name: aps
-            description: "source date"
-            tests:
-                - unique
-                - not_null
+            columns:
+              - name: address
+                description: "source date"
+                tests:
+                    -  unique
+                    -  not_null

@@ -12,7 +12,7 @@
 with source_data as (
 
     select *
-    from {{ source('rtl_model','aps') }}
+    from {{ source('cls_realt','aps') }}
 
 )
 

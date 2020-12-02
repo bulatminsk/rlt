@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: cls_realt
+      description: "cleansing level"
+      tables:
+          - name: aps
+            description: "source date"
+            tests:
+                - unique
+                - not_null
